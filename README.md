@@ -1,24 +1,19 @@
 # Clinic Appointment & Queue Management System
 
-A Java console application demonstrating **custom data structures** in a clinic appointment and patient queue scenario.
+Java console application demonstrating custom singly linked lists and linked queues for clinic appointments and patient waiting lists.
 
 ## Features
-- Add, view, and remove clinic appointments
-- Prevent duplicate bookings for a doctor at the same time
-- Add patients to a linked waiting queue
-- Serve the next patient in **FIFO** order
-- Interactive command-line menu
+- Add, view and remove appointments
+- Manage patient waiting list with a linked queue (FIFO)
+- Serve the next patient
+- Avoid duplicate doctor bookings at the same time
 
-## Data structures
-- **Singly Linked List** for appointment management
-- **Linked Queue** for patient waiting order
+## Run
+Open the project in NetBeans with a compatible JDK and run `project_DS_3c9.Main`, or compile the Java sources using `javac` and run `java project_DS_3c9.Main`.
 
-## Running
-Open the project in NetBeans with a compatible JDK and run `project_DS_3c9.Main`. The prepared project fixes the previous `dondon.Main` setting in `nbproject/project.properties`.
-
-## Structure
-- `src/project_DS_3c9/` — Java classes
-- `nbproject/` — NetBeans settings
+## Project structure
+- `src/project_DS_3c9/` — Java classes and data structures
+- `nbproject/` — NetBeans project settings
 - `build.xml` — Ant build configuration
 
-**Status:** Project documentation is available. Source files have not yet been uploaded to this repository. The application has not been fully runtime-tested.
+The NetBeans main class has been corrected from `dondon.Main` to `project_DS_3c9.Main`. Runtime behavior has not been fully tested.
